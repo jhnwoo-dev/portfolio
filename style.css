@@ -180,6 +180,18 @@ ul li {
         width: 95%;
     }
 
+    nav a {
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 18px;
+        color: #C7CCDB;
+        margin: 0 1px;
+        font-weight: 500;
+        height: 100px;
+        padding: 0 3%;
+        text-decoration: 2px underline solid #C7CCDB;
+    }
+
     ul {
         display: flex;
         flex-direction: row;
@@ -195,7 +207,7 @@ ul li {
 
     .header {
         font-size: 30px;
-        width: 180px;
+        width: 160px;
     }
 }
 
@@ -203,6 +215,19 @@ ul li {
     section {
         width: 95%;
     }
+
+    nav a {
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 15px;
+        color: #C7CCDB;
+        margin: 0 1px;
+        font-weight: 500;
+        height: 100px;
+        padding: 0 2%;
+        text-decoration: 2px underline solid #C7CCDB;
+    }
+
 
     ul {
         display: flex;
@@ -220,7 +245,32 @@ ul li {
 
     .header {
         font-size: 25px;
-        width: 130px;
+        width: 110px;
+    }
+
+}
+
+@media screen and (max-width:512px) {
+    h1 {
+        font-size: 27px;
+        letter-spacing: 2px;
+    }
+
+    nav a {
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: 15px;
+        color: #C7CCDB;
+        margin: 0 1px;
+        font-weight: 500;
+        height: 100px;
+        padding: 0 2%;
+        text-decoration: 2px underline solid #C7CCDB;
+    }
+
+    .header {
+        font-size: 25px;
+        width: 100px;
     }
 
 }
