@@ -12,50 +12,60 @@
 <body>
 
     <header>
-        <h1>Jason Nguyen</h1>
+        <div class="logo">
+            <h1>Jason Nguyen</h1>
+        </div>
         <nav>
-            <ul>
-                <li>About Me</li>
-                <li>Work</li>
-                <li>Contact Me</li>
-                <li>Resume</li>
-            </ul>
+            <a href="#about-link">About Me</a>
+            <a href="#work-link">Work</a>
+            <a href="#contact-link">Contact Me</a>
+            <!-- <a href="#resume-link"> Resume</a> !commenting out for now.!-->
         </nav>
     </header>
 
+
+
     <main>
+        <div class="banner">
+            <h2 id="banner-text">Welcome to my portfolio!</h2>
+        </div>
+
         <section id="about-me">
-            <h2 class="header">About Me</h2>
-            <p class="content">
+            <h2 id="about-link" class="header">About <br> Me</h2>
+            <p class="about-me-content">
                 Hello, my name is Jason! I am currently a full-time student in the University of Washington Online
                 Coding Bootcamp.
                 <br>
+                <br>
                 I have worked on projects that include working with HTML and CSS, with the intent to learn JavaScript
-                and other languages to further grow my developer skillset.
+                and other languages to further build my developer skillset.
             </p>
         </section>
 
         <section id="work">
-            <h2 class="header">Work</h2>
-            <div class="content">
+            <h2 id="work-link" class="header">Work</h2>
+            <div class="content overlay">
                 <a href="https://jhnwoo-dev.github.io/css-cheatsheet/" target="_blank"><img class="css-img"
-                        src="./CSS-Flexbox.jpg" alt="CSS Image">
+                        src="CSS-Flexbox.jpg" alt="CSS Image">
                 </a>
+                <span class="overlaytext">CSS Flexbox</span>
+            </div>
+
+            <div>
+
             </div>
         </section>
-    </main>
 
-    <footer>
-        <h2 class="header">Contact Me</h2>
-        <nav>
+
+        <section id="contact-me">
+            <h2 id="contact-link" class="header">Contact <br> Me</h2>
             <ul>
-                <li>(206)-330-9954</li>
-                <li>jhnguyen99@gmail.com</li>
-                <li>GitHub</li>
+                <li>(206)-330-9954</sli>
+                <li> <a href=mailto:jhnguyen99@gmail.com>jhnguyen99@gmail.com</a></li>
+                <li> <a href="https://github.com/jhnwoo-dev" target="_blank">GitHub</a></li>
             </ul>
-        </nav>
-    </footer>
-
+        </section>
+    </main>
 </body>
 
 </html>
